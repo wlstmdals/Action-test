@@ -11,6 +11,9 @@ jobs:
       
     - name: test start
       run: npm install jest
+
+    - name: move
+      run: cd 20181277_seungmin
     
     - name: testing
       run: npm test
