@@ -11,7 +11,7 @@ jobs:
       
     - name: test start
       run: npm install jest
-      working-directory: "./20181277_seungmin
+
     
     - name: testing
       run: npm test
