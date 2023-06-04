@@ -7,6 +7,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
-    
+    - name: test start
+      run: npm install jest
     - name: testing
       run: npm test
