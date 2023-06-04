@@ -12,7 +12,7 @@ function count(obj) {
   return count;
 }
 /*
-
+finally done
 const obj0 = {
   a: "moron",
   b: "scumbag",
