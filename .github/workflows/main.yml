@@ -17,4 +17,4 @@ jobs:
     
     - name: testing
       run: npm test
-      working-directory: "./Action-test/Action-test/20181277_seungmin"
+      working-directory: "./20181277_seungmin"
