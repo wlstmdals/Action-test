@@ -9,12 +9,13 @@ jobs:
     - uses: actions/checkout@v3
 
       
-    - name: test start
+    - name: 🤖Install Jest
       run: npm install jest
 
-    - name: node start
+    - name: 💩Install node-fetch
       run: npm install node-fetch@2
     
-    - name: testing
+    - name: 🤮testing
       run: npm test
       working-directory: "./20181277_seungmin/__tests__"
+      
