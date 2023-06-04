@@ -12,6 +12,8 @@ jobs:
     - name: test start
       run: npm install jest
 
+    - name: node start
+      run: npm init -y
     
     - name: testing
       run: npm test
